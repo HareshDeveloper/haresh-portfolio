@@ -1,9 +1,11 @@
 import Head from "next/head";
 import "../style/LogoHome.scss";
+import MenuBar from "./Menu";
 
-const HomePage=()=>{
+const HomeLogo=()=>{
     return(<div className="bg-gradient-to-r from-blue-900 to-blue-200 min-h-screen">
 <section>
+    <MenuBar/>
     <div className="logoHome">
     <span className="down"></span>
     <div className="centerRight"></div>
@@ -13,4 +15,4 @@ const HomePage=()=>{
     </div>);
 }
 
-export default HomePage;
+export default HomeLogo;
