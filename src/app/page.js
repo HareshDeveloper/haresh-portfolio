@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import HomeLogo from './components/HomeLogo';
+import Homepage from './components/HomePage';
 
 export default function Home() {
   return (
     <div>
-      <HomeLogo/>
+      <Homepage/>
     </div>
   );
 }
