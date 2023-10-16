@@ -1,6 +1,4 @@
 module.exports = {
   pageExtensions: ['jsx', 'js', 'ts', 'tsx', 'md', 'mdx'],
-  output: {
-    dir: 'export',
-  }
+  output:'export',
 };
