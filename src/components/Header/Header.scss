@@ -1,0 +1,55 @@
+@import "../../main.scss";
+@import "../../pages/Home/Home.scss";
+.header {
+  background-color: #000000;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  .logo {
+   width: 11rem;
+   padding-left: 3rem;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 3rem !important;
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      a:hover{
+        color: var(--main-color);
+      }
+      .contact-button {
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;;
+        border-color:var(--main-color) ;
+        color: var(--main-color);
+        font-family: "Montserrat-Regular", "MerriweatherSans-Regular", sans-serif;
+        font-weight: 600;
+      }
+      
+      .contact-button:hover {
+        background-color: var(--main-color);
+        color: black;
+      }
+    }
+  }
+}
+
+
