@@ -17,6 +17,7 @@
     "framer-motion": "^11.0.28",
     "lottie-web": "^5.12.2",
     "react": "^18.2.0",
+    "react-chrono": "^2.6.1",
     "react-dom": "^18.2.0",
     "react-lottie": "^1.2.4"
   },
